@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    font-family: "Quicksand", serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;   
+    background-color: #E5F3E9;
+}
+
+.nav-links {
+    float: right;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.logo {
+    float: left;
+    font-size: 24px;
+    padding: 30px 30px;
+}
+
+.bio {
+    position: relative;
+    text-align: center;
+    font-weight: medium;
+    font-size: 36px;
+    margin-top: 0px;
+}
+
+.bio::after {
+    content: "";
+    display: block;
+    width: 10%;
+    height: 8px;
+    background-color: #8DCBA0;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.section1{
+    width: 100%;
+    background-color: #D9EFDF;
+    height: 600px;
+    overflow: auto;
+}
+
+/*.section2, .section4 {
+    width: 100%;
+    background-color: #8DCBA0;
+    height: 600px;
+}
+    */
+
+.profile{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+}
+
+.description {
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 120px;
+    margin-left: 485px;
+        margin-right: 150px 
+}
+
+.vertical-bar {
+    width: 8px;
+    height: 100px;
+    background-color: #8DCBA0;
+    margin-bottom: 1000px;
+    margin-left: 90%;
+    border-radius: 10px;
+}
