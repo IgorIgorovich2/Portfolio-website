@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Quicksand", serif;
-    overflow: hidden;
 }
 
 .navbar {
@@ -33,15 +32,9 @@ li {
     padding: 30px 30px;
 }
 
-.bio {
-    position: relative;
-    text-align: center;
-    font-weight: medium;
-    font-size: 36px;
-    margin-top: 0px;
-}
 
-.bio::after {
+
+.heading::after {
     content: "";
     display: block;
     width: 10%;
@@ -51,29 +44,13 @@ li {
     border-radius: 10px;
 }
 
-.section1{
+.section1, .section3{
     width: 100%;
     background-color: #D9EFDF;
     height: 600px;
     margin: 0;
     padding: 0;
     overflow: auto;
-}
-
-.section2 {
-    width: 100%;
-    background-color: #E5F3E9;
-    overflow: auto;
-    height: 600px;
-    margin: 0;
-}
-
-.profile{
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
-    margin-right: 10px;
-    float: left;
 }
 
 .description {
@@ -85,6 +62,14 @@ li {
     position: absolute;
 }
 
+.profile{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+}
+
 .vertical-bar {
     width: 8px;
     height: 130px;
@@ -92,4 +77,82 @@ li {
     margin-top: 190px;
     margin-left: 90%;
     border-radius: 10px;
+}
+
+.section2, .section4{
+    width: 100%;
+    background-color: #E5F3E9;
+    overflow: auto;
+    height: 600px;
+    margin: 0;
+}
+
+.heading {
+    position: relative;
+    text-align: center;
+    font-weight: medium;
+    font-size: 36px;
+    margin-top: 25px;
+}
+
+.state {
+    position: relative;
+    text-align: center;
+    font-weight: medium;
+    font-size: 36px;
+    margin-top: 25px;
+}
+
+.image-panels {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.panel {
+    background-color: #8DCBA0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+    width: calc(25% - 20px);
+    box-sizing: border-box;
+}
+
+.panel img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.panel p {
+    margin: 10px;
+    font-size: 24px; 
+}
+
+.icon {
+    width: 64px;
+    padding: 5px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+footer {
+    background-color: #8C8C8C;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.github {
+    width: 64px;
+    padding: 5px;
 }
