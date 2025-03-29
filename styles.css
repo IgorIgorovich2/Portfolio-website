@@ -11,7 +11,7 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;   
-    background-color: #E5F3E9;
+    background-color: #b0b1b0;
     padding: 10px 20px; /* Added padding for better spacing */
 }
 
@@ -39,7 +39,7 @@ li {
     display: block;
     width: 10%;
     height: 8px;
-    background-color: #8DCBA0;
+    background-color: #000000;
     margin: 10px auto;
     border-radius: 10px;
     text-align: center;
@@ -51,7 +51,7 @@ li {
 
 .section1, .section3 {
     width: 100%;
-    background-color: #D9EFDF;
+    background-color: #ececec;
     padding: 20px; /* Added padding for better spacing */
 }
 
@@ -81,7 +81,7 @@ li {
 .vertical-bar {
     width: 8px;
     height: 130px;
-    background-color: #8DCBA0;
+    background-color: #ececec;;
     margin-left: 20px; /* Space between text and vertical bar */
     margin-right: 20px; /* Space between vertical bar and GitHub icon */
     border-radius: 10px;
@@ -100,7 +100,7 @@ li {
 
 .section2, .section4 {
     width: 100%;
-    background-color: #E5F3E9;
+    background-color: #ececec;;
     padding: 20px; /* Added padding for better spacing */
 }
 
@@ -126,7 +126,7 @@ li {
 }
 
 .panel {
-    background-color: #8DCBA0;
+    background-color: #ececec;;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
